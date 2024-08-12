@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #D3D3D3;
+  margin: 10px;
+  padding: 10px;
+}
+
+header{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; 
+  padding: 25px;
+}
+
+h1{
+   color: black;
+   font-size: 32px;
+   font-weight: bold;
+   margin: 0;
+}
+
+h2{
+  font-weight: bold;
+  text-align: center;
+  margin-block-start: .5em;
+  margin-block-end: .5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+p.color-label{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+p.hex-code{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.container{
+  border: 1px solid black;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.color-container{
+  width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+
+.lavender{
+  background-color: #E6E6FA;
+}
+
+.sky-blue{
+  background-color: #87CEEB;
+}
+
+.orange{
+  background-color: #FFA500;
+}
+.salmon{
+  background-color: #FA8072;
+}
+.forest-green{
+  background-color: #228B22;
+}
+.gold{
+  background-color: #FFD700;
+}
+
+.sub-heading{
+  text-align: left;
+}
+
+.regular{
+  font-style: normal;
+}
+
+.bold{
+  font-weight: 700px;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.roboto{
+  font-family: "Roboto", sans-serif;
+}
+
+.oswald{
+  font-family: "Oswald", sans-serif;
+}
+
+.Noto-Sans{
+  font-family: "Noto Sans", sans-serif;
+}
